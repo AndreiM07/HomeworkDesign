@@ -15,23 +15,6 @@
         <item name="materialButtonStyle">@style/Theme.MyApplication.Button</item>
         <item name="android:textViewStyle">@style/Theme.MyGeneral.TextView</item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </style>
     
     <style name="Theme.MyApplication.Button" parent="Widget.MaterialComponents.Button">

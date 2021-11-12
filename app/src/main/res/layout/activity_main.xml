@@ -20,7 +20,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/Android"
+            android:src="@drawable/android"
             android:scaleType="centerCrop"
             android:id="@+id/android_image_view"
             android:contentDescription="@string/android_image_view" />
@@ -44,6 +44,7 @@
 
 
 <Button
+    android:id="@+id/button_one"
     style="@style/Theme.MyApplication.Button"
     android:backgroundTint="@color/white"
     android:text="@string/button"
@@ -58,6 +59,7 @@
 
 
     <Button
+        android:id="@+id/button_first"
         style="@style/Theme.MyApplication.Button"
         android:backgroundTint="@color/white"
         android:text="@string/button"
@@ -72,6 +74,8 @@
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_marginTop="13dp"
+    android:layout_marginBottom="300dp"
     android:text="@string/title2"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
